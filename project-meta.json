@@ -1,0 +1,37 @@
+{
+  "project_name": "lesson-planV3",
+  "tool_key": "lesson-planV3",
+  "type": "skill",
+  "description": "双入口教学详案生成器：整合 lesson-plan-from-images 和 teaching-guide-generator-en，支持 Path A (docx 教研案) 和 Path B (例题图片) 双模式输入，自动识别并生成符合公司标准的小学数学中英双语教学详案",
+  "author": "杨童",
+  "owner": "杨童",
+  "team": "教研",
+  "ai_tool": "WorkBuddy",
+  "version": "1.0.0",
+  "created_at": "2026-06-16",
+  "updated_at": "2026-06-17",
+  "status": "reviewed",
+  "public_safe_self_check": "passed",
+  "human_review_required": false,
+  "business_value_label": "high",
+  "business_domain": "教研",
+  "dependencies": [
+    "openpyxl",
+    "python-docx"
+  ],
+  "entry_file": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "scripts/generate_lesson_plan.py",
+    "scripts/parse_docx.py",
+    "references/template_format.md",
+    "references/dialogue_templates.md",
+    "README.md",
+    "VERSION",
+    "project-meta.json",
+    "CHANGELOG.md",
+    "PUBLIC_SAFE_CHECKLIST.md"
+  ],
+  "source_repo": "https://github.com/2464549716-droid/lesson-planV3",
+  "packaged_at": "2026-06-17"
+}
